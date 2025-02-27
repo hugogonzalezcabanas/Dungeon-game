@@ -4,3 +4,8 @@ public class Alfredo
         int attack = 1;
         int speed = 1;
     }
+
+    static void hardpath
+    {
+        
+    }
