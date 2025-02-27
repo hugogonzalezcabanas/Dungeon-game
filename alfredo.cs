@@ -1,11 +1,10 @@
 public class Alfredo
-    static void Alfredo()
+{
+    static void alfredoStats()
     {
         int attack = 1;
         int speed = 1;
     }
+}
 
-    static void hardpath
-    {
-        
-    }
+ 
