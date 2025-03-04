@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugogonzalezcabanas\\MidtermSpring\\MidtermSpring.csproj": {}
+    "C:\\Users\\McCaffreyDJ\\Documents\\DevonStoryPath\\Dungeon-game\\MidtermSpring.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugogonzalezcabanas\\MidtermSpring\\MidtermSpring.csproj": {
+    "C:\\Users\\McCaffreyDJ\\Documents\\DevonStoryPath\\Dungeon-game\\MidtermSpring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugogonzalezcabanas\\MidtermSpring\\MidtermSpring.csproj",
+        "projectUniqueName": "C:\\Users\\McCaffreyDJ\\Documents\\DevonStoryPath\\Dungeon-game\\MidtermSpring.csproj",
         "projectName": "MidtermSpring",
-        "projectPath": "C:\\Users\\hugogonzalezcabanas\\MidtermSpring\\MidtermSpring.csproj",
-        "packagesPath": "C:\\Users\\hugogonzalezcabanas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugogonzalezcabanas\\MidtermSpring\\obj\\",
+        "projectPath": "C:\\Users\\McCaffreyDJ\\Documents\\DevonStoryPath\\Dungeon-game\\MidtermSpring.csproj",
+        "packagesPath": "C:\\Users\\McCaffreyDJ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\McCaffreyDJ\\Documents\\DevonStoryPath\\Dungeon-game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hugogonzalezcabanas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\McCaffreyDJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

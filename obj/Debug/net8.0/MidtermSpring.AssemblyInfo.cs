@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MidtermSpring")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5960af3c6d46dfa2bb2fe128637f4b7684fd726e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MidtermSpring")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MidtermSpring")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
