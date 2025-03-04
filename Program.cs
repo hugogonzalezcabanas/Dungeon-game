@@ -8,7 +8,7 @@ class AlfredDungeon
         FindSword();
     }
 
-    static void FindSword()
+    static void FindSword() // Beginning of the game
     {
         Console.WriteLine("You found a sword! (+2 Damage)");
         Console.WriteLine("You see two paths: one continues the story, the other leads to a cliff.");
@@ -24,7 +24,7 @@ class AlfredDungeon
         EncounterEnzo();
     }
 
-    static void EncounterEnzo()
+    static void EncounterEnzo() // First obstacle
     {
         Console.WriteLine("A giant monster named Enzo appears! (10 Health)");
         Console.Write("Do you fight or run? (fight/run): ");
@@ -39,7 +39,7 @@ class AlfredDungeon
         TrappedHallway();
     }
 
-    static void TrappedHallway()
+    static void TrappedHallway() // Hallway
     {
         Console.WriteLine("There are three paths: Spikes, Unstable floor, or Jump over a large hole.");
         Console.Write("Choose (spikes/floor/jump): ");
@@ -54,7 +54,7 @@ class AlfredDungeon
         NextPath();
     }
 
-    static void NextPath()
+    static void NextPath() // Second path 
     {
         Console.WriteLine("Two paths ahead: one leads back to Enzo, the other continues.");
         Console.Write("Choose (enzo/continue): ");
@@ -69,7 +69,7 @@ class AlfredDungeon
         ChooseNextObstacle();
     }
 
-    static void ChooseNextObstacle()
+    static void ChooseNextObstacle() // Next obstacle 
     {
         Console.Write("Choose (water/hallway/easy): ");
         string? choice = Console.ReadLine()?.ToLower();
@@ -88,7 +88,7 @@ class AlfredDungeon
         FinalPath();
     }
 
-    static void FinalPath()
+    static void FinalPath() // Finzalizing the game
     {
         Console.WriteLine("Two paths ahead: One goes back to Enzo, the other continues.");
         Console.Write("Choose (enzo/continue): ");
@@ -105,7 +105,7 @@ class AlfredDungeon
         }
     }
 
-    static void TennisOrCourtyard()
+    static void TennisOrCourtyard() // tennis and the end of the game
     {
         Console.Write("Choose (courtyard/tennis): ");
         string? choice = Console.ReadLine()?.ToLower();
