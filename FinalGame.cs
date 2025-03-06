@@ -10,18 +10,18 @@ class FinalGame
         Console.WriteLine("You enter a dungeon, with three paths opening up to you. Choose which path you'd like to continue on.");
         Console.WriteLine();
         Console.WriteLine("1: Left path | 2: Center path | 3: Right path");
-        var choice = Console.ReadKey().Key
+        var choice = Console.ReadKey().Key;
         if(choice == ConsoleKey.D1)
         {
-            Main1()
+            Main1();
         }
         if(choice == ConsoleKey.D2)
         {
-            Main2()
+            Main2();
         }
         if(choice == ConsoleKey.D3)
         {
-            Main3()
+            Main3();
         }
 
     }
