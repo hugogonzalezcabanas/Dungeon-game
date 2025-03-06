@@ -59,10 +59,10 @@ class FinalGame
             return;
         }
         Console.WriteLine("You run away and find yourself in a trapped hallway...");
-        TrappedHallway();
+        TrappedHallway1();
     }
 
-    static void TrappedHallway() // Hallway
+    static void TrappedHallway1() // Hallway
     {
         Console.WriteLine("There are three paths: Spikes, Unstable floor, or Jump over a large hole.");
         Console.Write("Choose (spikes/floor/jump): ");
